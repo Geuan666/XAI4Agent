@@ -1,5 +1,5 @@
 pipeline: pair_decode
-entry: xai4agent.pipelines.pair_decode
+entry: xai4agent.pair.pair_decode
 defaults:
   run_root: /root/autodl-tmp/XAI4Agent/experiments/pair
   run_id: null

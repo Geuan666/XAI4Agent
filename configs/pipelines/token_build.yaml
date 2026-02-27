@@ -1,5 +1,5 @@
 pipeline: token_build
-entry: xai4agent.pipelines.token_build
+entry: xai4agent.pair.token_build
 defaults:
   run_root: /root/autodl-tmp/XAI4Agent/experiments/pair
   run_id: null

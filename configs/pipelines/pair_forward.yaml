@@ -1,5 +1,5 @@
 pipeline: pair_forward
-entry: xai4agent.pipelines.pair_forward
+entry: xai4agent.pair.pair_forward
 defaults:
   run_root: /root/autodl-tmp/XAI4Agent/experiments/pair
   run_id: null

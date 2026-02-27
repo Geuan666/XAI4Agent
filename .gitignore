@@ -1,0 +1,60 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Test and type-check caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.pytype/
+.hypothesis/
+
+# Coverage outputs
+.coverage
+.coverage.*
+htmlcov/
+
+# Notebooks and local runtime state
+.ipynb_checkpoints/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment and secret files
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+*.cer
+credentials*
+secrets*
+id_rsa
+id_rsa.pub
+id_ed25519
+id_ed25519.pub
+
+# Local IDE/editor settings
+.vscode/
+.idea/
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Local agent/runtime instructions (not project source)
+AGENTS.md
+
+# Generated experiment outputs
+artifacts/
+experiments/

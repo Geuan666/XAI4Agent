@@ -1,0 +1,3 @@
+timestamp	key	variant	status	input_len	output_len	duration_s	message
+2026-02-27 10:01:50	humaneval_0	agentic	SUCCESS	553	64	1.91	
+2026-02-27 10:01:52	humaneval_0	assisted	SUCCESS	553	64	1.61	

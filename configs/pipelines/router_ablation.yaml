@@ -1,0 +1,12 @@
+pipeline: router_ablation
+entry: xai4agent.pipelines.pair_decode_mask_sweep
+points_json_example: /root/autodl-tmp/XAI4Agent/experiments/router_ablation/points/last_token_agentic_minus_assisted_points.json
+defaults:
+  points_json: null
+  pair_decode: /root/autodl-tmp/XAI4Agent/xai4agent/pipelines/pair_decode_mask.py
+  pair_eval: /root/autodl-tmp/XAI4Agent/xai4agent/pipelines/pair_decode_eval.py
+  out_base: /root/autodl-tmp/XAI4Agent/experiments/router_ablation/decode
+  log_base: /root/autodl-tmp/XAI4Agent/experiments/router_ablation/logs
+  results_dir: /root/autodl-tmp/XAI4Agent/experiments/router_ablation/results
+  device: cuda
+  mask_mode: keep_topk

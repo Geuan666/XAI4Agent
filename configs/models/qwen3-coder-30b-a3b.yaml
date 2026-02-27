@@ -1,0 +1,11 @@
+name: qwen3-coder-30b-a3b
+served_model_name: qwen3-coder-30b
+family: qwen3
+size: 30b-a3b
+model_path: /root/autodl-tmp/models
+legacy_model_path: /root/autodl-tmp/models/qwen3-coder-30b
+dtype: bfloat16
+max_model_len: 163840
+supports_moe_router_analysis: true
+available_now: false
+availability_note: "OOM on current single-GPU setup. Keep config for future expansion."

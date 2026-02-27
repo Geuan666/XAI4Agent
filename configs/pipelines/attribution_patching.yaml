@@ -1,0 +1,14 @@
+pipeline: attribution_patching
+status: design_only
+reference: /root/autodl-tmp/XAI4Agent/references/Attribution Patching.md
+planned_stages:
+  - controlled_pair
+  - attribution_scoring
+  - ranking_and_stability
+  - causal_validation
+  - mechanism_linking
+input_matrix:
+  dataset: humaneval
+  model_candidates:
+    - qwen3-coder-30b-a3b
+    - qwen3-8b

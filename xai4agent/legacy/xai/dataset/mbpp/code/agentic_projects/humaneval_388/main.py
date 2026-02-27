@@ -1,0 +1,8 @@
+def highest_Power_of_2(n):
+    """
+    Write a python function to find the highest power of 2 that is less than or equal to n.
+    
+    Example:
+    assert highest_Power_of_2(10) == 8
+    """
+    pass

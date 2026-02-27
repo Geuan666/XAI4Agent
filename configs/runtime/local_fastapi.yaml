@@ -1,0 +1,5 @@
+name: local_fastapi
+api_base: http://127.0.0.1:8000/v1
+server_dir: /root/autodl-tmp/FastAPI/qwen3coder
+start_cmd: /root/miniconda3/envs/qwen/bin/python server.py
+intervene_start_cmd: bash start_server_intervene_top100.sh

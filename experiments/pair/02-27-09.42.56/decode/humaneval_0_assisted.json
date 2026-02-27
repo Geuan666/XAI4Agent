@@ -1,0 +1,14 @@
+{
+  "key": "humaneval_0",
+  "variant": "assisted",
+  "prompt": "<|im_start|>user\nYou are a code completion assistant.\nTask: Complete the function body based only on the function definition and docstring.\nRules:\n- Output only the function body (no signature, no docstring).\n- Preserve correct indentation (4 spaces).\n- Use only the Python standard library.\n- Do not add explanations or extra text.\n- Assume no extra context beyond what is shown.\n#Function definition and docstring:\nfrom typing import List\n\n\ndef has_close_elements(numbers: List[float], threshold: float) -> bool:\n    \"\"\" Check if in given list of numbers, are any two numbers closer to each other than\n    given threshold.\n    >>> has_close_elements([1.0, 2.0, 3.0], 0.5)\n    False\n    >>> has_close_elements([1.0, 2.8, 3.0, 4.0, 5.0, 2.0], 0.3)\n    True\n    \"\"\"\n    pass\n<|im_end|>\n<|im_start|>assistant",
+  "generated": "<think>\nOkay, I need to complete the function has_close_elements. The goal",
+  "input_length": 553,
+  "output_length": 16,
+  "max_new_tokens": 16,
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "do_sample": false,
+  "aligned_ok": true,
+  "fence_start": 553
+}

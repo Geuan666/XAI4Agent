@@ -1,0 +1,8 @@
+pipeline: token_build
+entry: xai4agent.pipelines.token_build
+defaults:
+  run_root: /root/autodl-tmp/XAI4Agent/experiments/pair
+  run_id: null
+  pairs: null
+  output: null
+  model: /root/autodl-tmp/qwen3-8B

@@ -1,0 +1,8 @@
+name: humaneval
+format: parquet
+task_id_pattern: HumanEval/{id}
+path: /root/autodl-tmp/XAI4Agent/xai4agent/data/dataset/humaneval/data/test-00000-of-00001.parquet
+fields:
+  prompt: prompt
+  canonical_solution: canonical_solution
+  test: test

@@ -1,0 +1,13 @@
+pipeline: pair_forward
+entry: xai4agent.pipelines.pair_forward
+defaults:
+  run_root: /root/autodl-tmp/XAI4Agent/experiments/pair
+  run_id: null
+  tokens: null
+  tokens_cache: null
+  model: /root/autodl-tmp/qwen3-8B
+  output_dir: null
+  log: null
+  device: cuda
+  dtype: bfloat16
+  save_mode: canonical

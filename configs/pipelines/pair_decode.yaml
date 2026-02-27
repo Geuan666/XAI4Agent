@@ -1,0 +1,12 @@
+pipeline: pair_decode
+entry: xai4agent.pipelines.pair_decode
+defaults:
+  run_root: /root/autodl-tmp/XAI4Agent/experiments/pair
+  run_id: null
+  prompts: null
+  tokens: null
+  model: /root/autodl-tmp/qwen3-8B
+  output_dir: null
+  log: null
+  device: cuda
+  dtype: bfloat16

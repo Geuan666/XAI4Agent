@@ -1,0 +1,14 @@
+pipeline: pair_build
+entry: xai4agent.pipelines.pair_build
+defaults:
+  run_root: /root/autodl-tmp/XAI4Agent/experiments/pair
+  run_id: null
+  parquet: /root/autodl-tmp/XAI4Agent/xai4agent/data/dataset/humaneval/data/test-00000-of-00001.parquet
+  assisted: /root/autodl-tmp/XAI4Agent/experiments/assisted/assisted_output.json
+  agentic: /root/autodl-tmp/XAI4Agent/experiments/agentic/agentic_output1.json
+  agentic_fallback: /root/autodl-tmp/XAI4Agent/experiments/agentic/agentic_output.json
+  model: /root/autodl-tmp/qwen3-8B
+  server: /root/autodl-tmp/XAI4Agent/xai4agent/serving/fastapi/qwen3coder/server1.py
+  agent: /root/autodl-tmp/XAI4Agent/xai4agent/pipelines/agentic/agent.py
+  project_root: /root/autodl-tmp/XAI4Agent/xai4agent/pipelines/agentic/projects
+  output: null

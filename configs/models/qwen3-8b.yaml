@@ -1,0 +1,15 @@
+name: qwen3-8b
+served_model_name: qwen3-8b
+family: qwen3
+size: 8b
+model_path: /root/autodl-tmp/qwen3-8B
+dtype: bfloat16
+max_model_len: 32768
+tool_call_parser: hermes
+tool_call_parser_alternatives:
+  - qwen3_xml
+  - qwen3_coder
+tool_call_parser_validated_on: 2026-02-26
+supports_moe_router_analysis: false
+available_now: true
+default_now: true
